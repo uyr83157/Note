@@ -17,4 +17,8 @@ public class Note {
         this.title = noteRequestDto.getTitle();
         this.content = noteRequestDto.getContent();
     }
+
+    public void updateTitle(NoteRequestDto noteRequestDto) {
+        this.title = noteRequestDto.getTitle();
+    }
 }
